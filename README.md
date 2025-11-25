@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Personal Website
 
 This is my personal developer portfolio website.  
@@ -23,3 +24,7 @@ It showcases my skills in web development, programming, problem solving, and mod
 1. Download or clone this repo:
    ```bash
    git clone https://github.com/YOUR_USERNAME/my-personal-website.git
+=======
+# my-personal-website
+A clean, responsive, and modern personal portfolio website built using HTML, CSS, and JavaScript. This project showcases my skills as a Front-End Developer, including web design, responsiveness, layout creation, and UI optimization.
+>>>>>>> 99126da41bcb28f312123a113e4722bf0a7b3894
