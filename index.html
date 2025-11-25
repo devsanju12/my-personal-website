@@ -4,13 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sanjay | Personal Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Sanjay - Front-End Developer. I build clean, responsive websites, landing pages, and simple automation using HTML, CSS, JavaScript, C++, DSA, WordPress, Shopify and AI tools."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Top Navigation -->
   <header class="nav">
     <div class="container nav-inner">
-      <div class="logo">Sanjay<span>Dev</span></div>
-      <nav>
+      <a href="#home" class="logo">
+        Sanjay<span>Dev</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -25,7 +39,7 @@
     <!-- Hero -->
     <section id="home" class="hero">
       <div class="container hero-inner">
-        <div>
+        <div class="hero-text">
           <p class="eyebrow">Front-End Developer & Problem Solver</p>
           <h1>Websites, Automation & Smart Solutions That Actually Work.</h1>
           <p class="subtitle">
@@ -38,11 +52,12 @@
             <a href="#contact" class="btn ghost">Contact Me</a>
           </div>
         </div>
-        <div class="hero-card">
+
+        <aside class="hero-card">
           <p class="hero-tag">Available for freelance work</p>
-          <p class="hero-email">Email: yourmail@example.com</p>
+          <p class="hero-email">Email: <a href="mailto:god771508@gmail.com">god771508@gmail.com</a></p>
           <p class="hero-location">Based in India · Open to remote projects worldwide</p>
-        </div>
+        </aside>
       </div>
     </section>
 
@@ -51,19 +66,19 @@
       <div class="container">
         <h2>About Me</h2>
         <p class="section-subtitle">
-          Self-taught developer with a focus on building real, working solutions.
+          Self-taught developer focused on building real, working solutions.
         </p>
         <div class="card">
           <p>
             Hi, I’m Sanjay. I’ve spent years learning programming, problem solving
-            and web development. I work with <strong>HTML, CSS, JavaScript</strong> for
-            front-end, and I use <strong>C++ and Data Structures & Algorithms (DSA)</strong> 
+            and web development. I work with <strong>HTML, CSS, JavaScript</strong>
+            for front-end, and I use <strong>C++ and Data Structures &amp; Algorithms (DSA)</strong>
             to think clearly about logic and performance.
           </p>
           <p>
             I can create responsive landing pages, personal portfolio sites,
             business websites, and simple automation or chatbot flows using legal tools.
-            I also work with popular platforms like <strong>WordPress</strong> and
+            I also work with platforms like <strong>WordPress</strong> and
             <strong>Shopify</strong> to build and customize websites without over-complication.
           </p>
         </div>
@@ -78,7 +93,7 @@
           A mix of web development, programming, platforms, AI and debugging skills.
         </p>
         <div class="grid skills-grid">
-          <div class="card">
+          <article class="card">
             <h3>Web Development</h3>
             <ul>
               <li>HTML5 &amp; CSS3</li>
@@ -87,19 +102,19 @@
               <li>Landing Page Design</li>
               <li>Front-End Development</li>
             </ul>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <h3>Programming &amp; DSA</h3>
             <ul>
               <li>C++ Programming</li>
               <li>Data Structures &amp; Algorithms</li>
               <li>Problem Solving &amp; Debugging</li>
-              <li>Basic Python (optional extension)</li>
+              <li>Basic Python</li>
             </ul>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <h3>Platforms &amp; Tools</h3>
             <ul>
               <li>WordPress Website Setup &amp; Customization</li>
@@ -107,9 +122,9 @@
               <li>Website Maintenance</li>
               <li>Website Speed Optimization</li>
             </ul>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <h3>AI, Chatbots &amp; Testing</h3>
             <ul>
               <li>Simple Chatbot Flows (legal use)</li>
@@ -117,7 +132,7 @@
               <li>Basic automation using scripts</li>
               <li>User Testing &amp; UX Feedback</li>
             </ul>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -130,34 +145,34 @@
           What I can do for clients and projects.
         </p>
         <div class="grid services-grid">
-          <div class="card">
+          <article class="card">
             <h3>Landing Pages &amp; Websites</h3>
             <p>
               Custom landing pages, portfolio sites and small business websites 
               built with HTML, CSS, JavaScript, WordPress or Shopify.
             </p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3>Bug Fixing &amp; Improvements</h3>
             <p>
               Fix layout issues, broken CSS, JavaScript errors, and improve 
               responsiveness and overall site stability.
             </p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3>Performance &amp; Optimization</h3>
             <p>
               Clean up code, optimize pages for speed, and improve user experience 
               on mobile and desktop.
             </p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3>AI &amp; Chatbot Integrations</h3>
             <p>
               Set up simple AI assistants and chatbot flows to handle basic 
               user interactions or FAQs (legal, TOS-compliant setups only).
             </p>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -217,11 +232,9 @@
           Have a project in mind? Let’s talk.
         </p>
         <div class="card contact-card">
-          <p>
-            You can reach me directly via email:
-          </p>
+          <p>You can reach me directly via email:</p>
           <p class="contact-email">
-            <a href="mailto:yourmail@example.com">god771508@gmail.com</a>
+            <a href="mailto:god771508@gmail.com">god771508@gmail.com</a>
           </p>
           <p>
             Tell me what you need, and I’ll reply with ideas, a plan, and next steps.
@@ -231,6 +244,7 @@
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Sanjay. All rights reserved.</p>
